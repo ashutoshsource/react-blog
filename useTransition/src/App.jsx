@@ -14,7 +14,7 @@ function App() {
      <h1>useTransition effect in react js 19</h1>
       {
   pending ?
-  <img src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExajF3M3FyajlwdXB5a2p1aHY0OWNxZ2JrdmJvMTkzNzgxdXBzeWwwMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3T4oJvjGDuaX6exxMA/giphy.gif' /> :
+  <img style={{width:"50%"}} src='https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExajF3M3FyajlwdXB5a2p1aHY0OWNxZ2JrdmJvMTkzNzgxdXBzeWwwMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3T4oJvjGDuaX6exxMA/giphy.gif' /> :
   null
 }
      <button onClick={handleButton} disabled={pending}>{pending ? 'Loading...' : 'Click'}</button>
